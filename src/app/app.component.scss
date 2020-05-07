@@ -1,0 +1,92 @@
+.arrow-left {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+#header {
+    //position: absolute;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-container {
+    width: 64px;
+    height: 64px;
+    background: #e6f2f9;
+    border: 2px solid #4d7eab;
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rigth-vector {
+    border: 1px solid #4d7eab;
+    width: 45%;
+}
+.left-vector {
+    border: 0px solid #4d7eab;
+    width: 45%;
+}
+.screen-title {
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #4d7eab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-input-container {
+    background: #6200ee;
+    border-radius: 3.5px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.input-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+ion-label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 10px;
+}
+#button-container {
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.generic-button {
+    width: 177px;
+    height: 48px;
+    background: #00a7cd;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.generic-button-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+}
